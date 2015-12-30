@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  D3定制瀑布流
+//
+//  Created by rock on 15/11/18.
+//  Copyright © 2015年 zyq. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define VIEW_HEIGHT    self.view.frame.size.height
+
+#define VIEW_WIDTH   self.view.frame.size.width
+
+
+#endif /* PrefixHeader_pch */

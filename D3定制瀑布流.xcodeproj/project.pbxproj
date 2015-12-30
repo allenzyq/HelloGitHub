@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD98FC3B1BFC55ED00C39B54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98FC3A1BFC55ED00C39B54 /* main.m */; };
+		DD98FC3E1BFC55ED00C39B54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98FC3D1BFC55ED00C39B54 /* AppDelegate.m */; };
+		DD98FC401BFC55ED00C39B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD98FC3F1BFC55ED00C39B54 /* Assets.xcassets */; };
+		DD98FC431BFC55ED00C39B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD98FC411BFC55ED00C39B54 /* LaunchScreen.storyboard */; };
+		DD98FC4E1BFC55EE00C39B54 /* D3_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98FC4D1BFC55EE00C39B54 /* D3_____Tests.m */; };
+		DD98FC591BFC55EE00C39B54 /* D3_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98FC581BFC55EE00C39B54 /* D3_____UITests.m */; };
+		DD98FC691BFC579500C39B54 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98FC681BFC579500C39B54 /* RootViewController.m */; };
+		DD98FC6C1BFC5EF100C39B54 /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98FC6B1BFC5EF100C39B54 /* WaterFallFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD98FC4A1BFC55EE00C39B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD98FC2E1BFC55ED00C39B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD98FC351BFC55ED00C39B54;
+			remoteInfo = "D3定制瀑布流";
+		};
+		DD98FC551BFC55EE00C39B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD98FC2E1BFC55ED00C39B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD98FC351BFC55ED00C39B54;
+			remoteInfo = "D3定制瀑布流";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD98FC361BFC55ED00C39B54 /* D3定制瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D3定制瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD98FC3A1BFC55ED00C39B54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD98FC3C1BFC55ED00C39B54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD98FC3D1BFC55ED00C39B54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD98FC3F1BFC55ED00C39B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD98FC421BFC55ED00C39B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD98FC441BFC55ED00C39B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD98FC491BFC55EE00C39B54 /* D3定制瀑布流Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "D3定制瀑布流Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD98FC4D1BFC55EE00C39B54 /* D3_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "D3_____Tests.m"; sourceTree = "<group>"; };
+		DD98FC4F1BFC55EE00C39B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD98FC541BFC55EE00C39B54 /* D3定制瀑布流UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "D3定制瀑布流UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD98FC581BFC55EE00C39B54 /* D3_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "D3_____UITests.m"; sourceTree = "<group>"; };
+		DD98FC5A1BFC55EE00C39B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD98FC661BFC574600C39B54 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DD98FC671BFC579500C39B54 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DD98FC681BFC579500C39B54 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DD98FC6A1BFC5EF100C39B54 /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
+		DD98FC6B1BFC5EF100C39B54 /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD98FC331BFC55ED00C39B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD98FC461BFC55EE00C39B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD98FC511BFC55EE00C39B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD98FC2D1BFC55ED00C39B54 = {
+			isa = PBXGroup;
+			children = (
+				DD98FC381BFC55ED00C39B54 /* D3定制瀑布流 */,
+				DD98FC4C1BFC55EE00C39B54 /* D3定制瀑布流Tests */,
+				DD98FC571BFC55EE00C39B54 /* D3定制瀑布流UITests */,
+				DD98FC371BFC55ED00C39B54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD98FC371BFC55ED00C39B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD98FC361BFC55ED00C39B54 /* D3定制瀑布流.app */,
+				DD98FC491BFC55EE00C39B54 /* D3定制瀑布流Tests.xctest */,
+				DD98FC541BFC55EE00C39B54 /* D3定制瀑布流UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD98FC381BFC55ED00C39B54 /* D3定制瀑布流 */ = {
+			isa = PBXGroup;
+			children = (
+				DD98FC3C1BFC55ED00C39B54 /* AppDelegate.h */,
+				DD98FC3D1BFC55ED00C39B54 /* AppDelegate.m */,
+				DD98FC671BFC579500C39B54 /* RootViewController.h */,
+				DD98FC681BFC579500C39B54 /* RootViewController.m */,
+				DD98FC6A1BFC5EF100C39B54 /* WaterFallFlowLayout.h */,
+				DD98FC6B1BFC5EF100C39B54 /* WaterFallFlowLayout.m */,
+				DD98FC3F1BFC55ED00C39B54 /* Assets.xcassets */,
+				DD98FC411BFC55ED00C39B54 /* LaunchScreen.storyboard */,
+				DD98FC441BFC55ED00C39B54 /* Info.plist */,
+				DD98FC391BFC55ED00C39B54 /* Supporting Files */,
+				DD98FC661BFC574600C39B54 /* PrefixHeader.pch */,
+			);
+			path = "D3定制瀑布流";
+			sourceTree = "<group>";
+		};
+		DD98FC391BFC55ED00C39B54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD98FC3A1BFC55ED00C39B54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD98FC4C1BFC55EE00C39B54 /* D3定制瀑布流Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD98FC4D1BFC55EE00C39B54 /* D3_____Tests.m */,
+				DD98FC4F1BFC55EE00C39B54 /* Info.plist */,
+			);
+			path = "D3定制瀑布流Tests";
+			sourceTree = "<group>";
+		};
+		DD98FC571BFC55EE00C39B54 /* D3定制瀑布流UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD98FC581BFC55EE00C39B54 /* D3_____UITests.m */,
+				DD98FC5A1BFC55EE00C39B54 /* Info.plist */,
+			);
+			path = "D3定制瀑布流UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD98FC351BFC55ED00C39B54 /* D3定制瀑布流 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD98FC5D1BFC55EE00C39B54 /* Build configuration list for PBXNativeTarget "D3定制瀑布流" */;
+			buildPhases = (
+				DD98FC321BFC55ED00C39B54 /* Sources */,
+				DD98FC331BFC55ED00C39B54 /* Frameworks */,
+				DD98FC341BFC55ED00C39B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "D3定制瀑布流";
+			productName = "D3定制瀑布流";
+			productReference = DD98FC361BFC55ED00C39B54 /* D3定制瀑布流.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD98FC481BFC55EE00C39B54 /* D3定制瀑布流Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD98FC601BFC55EE00C39B54 /* Build configuration list for PBXNativeTarget "D3定制瀑布流Tests" */;
+			buildPhases = (
+				DD98FC451BFC55EE00C39B54 /* Sources */,
+				DD98FC461BFC55EE00C39B54 /* Frameworks */,
+				DD98FC471BFC55EE00C39B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD98FC4B1BFC55EE00C39B54 /* PBXTargetDependency */,
+			);
+			name = "D3定制瀑布流Tests";
+			productName = "D3定制瀑布流Tests";
+			productReference = DD98FC491BFC55EE00C39B54 /* D3定制瀑布流Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD98FC531BFC55EE00C39B54 /* D3定制瀑布流UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD98FC631BFC55EE00C39B54 /* Build configuration list for PBXNativeTarget "D3定制瀑布流UITests" */;
+			buildPhases = (
+				DD98FC501BFC55EE00C39B54 /* Sources */,
+				DD98FC511BFC55EE00C39B54 /* Frameworks */,
+				DD98FC521BFC55EE00C39B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD98FC561BFC55EE00C39B54 /* PBXTargetDependency */,
+			);
+			name = "D3定制瀑布流UITests";
+			productName = "D3定制瀑布流UITests";
+			productReference = DD98FC541BFC55EE00C39B54 /* D3定制瀑布流UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD98FC2E1BFC55ED00C39B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zyq;
+				TargetAttributes = {
+					DD98FC351BFC55ED00C39B54 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 92PWE477TS;
+					};
+					DD98FC481BFC55EE00C39B54 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 92PWE477TS;
+						TestTargetID = DD98FC351BFC55ED00C39B54;
+					};
+					DD98FC531BFC55EE00C39B54 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 92PWE477TS;
+						TestTargetID = DD98FC351BFC55ED00C39B54;
+					};
+				};
+			};
+			buildConfigurationList = DD98FC311BFC55ED00C39B54 /* Build configuration list for PBXProject "D3定制瀑布流" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD98FC2D1BFC55ED00C39B54;
+			productRefGroup = DD98FC371BFC55ED00C39B54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD98FC351BFC55ED00C39B54 /* D3定制瀑布流 */,
+				DD98FC481BFC55EE00C39B54 /* D3定制瀑布流Tests */,
+				DD98FC531BFC55EE00C39B54 /* D3定制瀑布流UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD98FC341BFC55ED00C39B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD98FC401BFC55ED00C39B54 /* Assets.xcassets in Resources */,
+				DD98FC431BFC55ED00C39B54 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD98FC471BFC55EE00C39B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD98FC521BFC55EE00C39B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD98FC321BFC55ED00C39B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD98FC6C1BFC5EF100C39B54 /* WaterFallFlowLayout.m in Sources */,
+				DD98FC3E1BFC55ED00C39B54 /* AppDelegate.m in Sources */,
+				DD98FC3B1BFC55ED00C39B54 /* main.m in Sources */,
+				DD98FC691BFC579500C39B54 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD98FC451BFC55EE00C39B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD98FC4E1BFC55EE00C39B54 /* D3_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD98FC501BFC55EE00C39B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD98FC591BFC55EE00C39B54 /* D3_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD98FC4B1BFC55EE00C39B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD98FC351BFC55ED00C39B54 /* D3定制瀑布流 */;
+			targetProxy = DD98FC4A1BFC55EE00C39B54 /* PBXContainerItemProxy */;
+		};
+		DD98FC561BFC55EE00C39B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD98FC351BFC55ED00C39B54 /* D3定制瀑布流 */;
+			targetProxy = DD98FC551BFC55EE00C39B54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD98FC411BFC55ED00C39B54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD98FC421BFC55ED00C39B54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD98FC5B1BFC55EE00C39B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD98FC5C1BFC55EE00C39B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD98FC5E1BFC55EE00C39B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "D3定制瀑布流/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1000phone.D3-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD98FC5F1BFC55EE00C39B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "D3定制瀑布流/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1000phone.D3-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD98FC611BFC55EE00C39B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "D3定制瀑布流Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1000phone.D3-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/D3定制瀑布流.app/D3定制瀑布流";
+			};
+			name = Debug;
+		};
+		DD98FC621BFC55EE00C39B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "D3定制瀑布流Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1000phone.D3-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/D3定制瀑布流.app/D3定制瀑布流";
+			};
+			name = Release;
+		};
+		DD98FC641BFC55EE00C39B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/D3定制瀑布流/PrefixHeader.pch";
+				INFOPLIST_FILE = "D3定制瀑布流UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1000phone.D3-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "D3定制瀑布流";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD98FC651BFC55EE00C39B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/D3定制瀑布流/PrefixHeader.pch";
+				INFOPLIST_FILE = "D3定制瀑布流UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1000phone.D3-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "D3定制瀑布流";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD98FC311BFC55ED00C39B54 /* Build configuration list for PBXProject "D3定制瀑布流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD98FC5B1BFC55EE00C39B54 /* Debug */,
+				DD98FC5C1BFC55EE00C39B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD98FC5D1BFC55EE00C39B54 /* Build configuration list for PBXNativeTarget "D3定制瀑布流" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD98FC5E1BFC55EE00C39B54 /* Debug */,
+				DD98FC5F1BFC55EE00C39B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD98FC601BFC55EE00C39B54 /* Build configuration list for PBXNativeTarget "D3定制瀑布流Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD98FC611BFC55EE00C39B54 /* Debug */,
+				DD98FC621BFC55EE00C39B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD98FC631BFC55EE00C39B54 /* Build configuration list for PBXNativeTarget "D3定制瀑布流UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD98FC641BFC55EE00C39B54 /* Debug */,
+				DD98FC651BFC55EE00C39B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD98FC2E1BFC55ED00C39B54 /* Project object */;
+}
