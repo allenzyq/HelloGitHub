@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7D46411C33C738007AF805 /* GitHubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D46401C33C738007AF805 /* GitHubTest.m */; };
 		DD98FC3B1BFC55ED00C39B54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98FC3A1BFC55ED00C39B54 /* main.m */; };
 		DD98FC3E1BFC55ED00C39B54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD98FC3D1BFC55ED00C39B54 /* AppDelegate.m */; };
 		DD98FC401BFC55ED00C39B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD98FC3F1BFC55ED00C39B54 /* Assets.xcassets */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B7D463F1C33C738007AF805 /* GitHubTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubTest.h; sourceTree = "<group>"; };
+		2B7D46401C33C738007AF805 /* GitHubTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubTest.m; sourceTree = "<group>"; };
 		DD98FC361BFC55ED00C39B54 /* D3定制瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D3定制瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD98FC3A1BFC55ED00C39B54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD98FC3C1BFC55ED00C39B54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 				DD98FC681BFC579500C39B54 /* RootViewController.m */,
 				DD98FC6A1BFC5EF100C39B54 /* WaterFallFlowLayout.h */,
 				DD98FC6B1BFC5EF100C39B54 /* WaterFallFlowLayout.m */,
+				2B7D463F1C33C738007AF805 /* GitHubTest.h */,
+				2B7D46401C33C738007AF805 /* GitHubTest.m */,
 				DD98FC3F1BFC55ED00C39B54 /* Assets.xcassets */,
 				DD98FC411BFC55ED00C39B54 /* LaunchScreen.storyboard */,
 				DD98FC441BFC55ED00C39B54 /* Info.plist */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD98FC6C1BFC5EF100C39B54 /* WaterFallFlowLayout.m in Sources */,
+				2B7D46411C33C738007AF805 /* GitHubTest.m in Sources */,
 				DD98FC3E1BFC55ED00C39B54 /* AppDelegate.m in Sources */,
 				DD98FC3B1BFC55ED00C39B54 /* main.m in Sources */,
 				DD98FC691BFC579500C39B54 /* RootViewController.m in Sources */,
@@ -501,6 +507,7 @@
 				DD98FC5F1BFC55EE00C39B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD98FC601BFC55EE00C39B54 /* Build configuration list for PBXNativeTarget "D3定制瀑布流Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				DD98FC621BFC55EE00C39B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD98FC631BFC55EE00C39B54 /* Build configuration list for PBXNativeTarget "D3定制瀑布流UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				DD98FC651BFC55EE00C39B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
